@@ -43,15 +43,33 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0%;
-    font-size: 1.1em;
+    font-size: 1.1rem;
+}
+
+.pic-gallery {
+    padding: 0 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 80%;
+    border-left: 1px solid #F6F6F6;
+    border-right: 1px solid #F6F6F6;
 }
 
-
+.gallery-container img {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    
+}
 
 img {
     max-width: 50%;
