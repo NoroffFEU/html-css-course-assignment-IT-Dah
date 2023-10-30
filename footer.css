@@ -1,0 +1,24 @@
+/* Color palette
+
+Background  #F6F6F6
+Frames      #3C6E6F
+Logo        #0A3641
+*/
+
+/* Footer */
+
+footer {
+    padding:0%;
+    color: #0A3641;
+    background-color: #0A3641;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+.footer {
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: end;
+}
