@@ -17,18 +17,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1%;
-    padding-bottom: 1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
 }
 
 .top-nav {
     display: flex;
     justify-content: space-around;
     padding: 0%;
-    list-style: none;
+    list-style: none;    
 }
 
-/* add a responsive searchbar
+/* add a responsive search bar
 
 .fa-magnifying-glass{
 
