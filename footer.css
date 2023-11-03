@@ -8,9 +8,6 @@ Logo        #0A3641
 /* Footer */
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     background-color: #F6F6F6;
     font-family: 'Open Sans', sans-serif;
