@@ -29,7 +29,7 @@
                 <form action="" method="post">
                     <div>
                         <label for="contact-name">Full name</label>
-                        <input type="name" name="contact-name" id="contact-name" autofocus>
+                        <input type="text" name="contact-name" id="contact-name" autofocus>
                     </div>
                     <div>
                         <label for="support-mail">Email address</label>
@@ -37,12 +37,14 @@
                     </div>
                     <div>
                         <label for="support-message">Message</label>
-                        <textarea name="costumer-message" id="costumer-message" cols="30" rows="10"></textarea>
+                        <textarea name="text" id="costumer-message" cols="30" rows="10"></textarea>
                     </div>
                     <label for="therms of service">
-                        <input type="checkbox" name="tos" id="tos"> I accept the <a href="">Therms of service</a>
+                        <input type="checkbox" name="tos" id="tos"> I accept the <a href="">therms of service</a>.
                     </label>
-                    <button>Send</button>    
+                    <input type="checkbox" name="news-letter" id="news-letter"> I would like to receive special offers and newsletters.
+                    <button>Send</button>
+                </form>    
             </div>
         </main>
         <footer>
