@@ -8,8 +8,10 @@ Logo        #0A3641
 /* Main */
 
 body {
-    padding:0%;
+    height: 100%;
     margin: 0%;
+    padding:0%;
+    position: relative;
     font-family: 'Open Sans', sans-serif, serif;
     text-shadow: 0px 1px 1px #0A3641CC;
     color: white;
@@ -20,11 +22,23 @@ body {
     background-attachment: fixed;
 }
 
-.content-wrapper {
-    background-color: #0A3641CC;
-    text-align: center;
+/* had issues with the transparent background color, so i fixed it like this: */
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0A3641CC; 
+    z-index: -1;
 }
 
+.content-wrapper {
+    text-shadow: 0px 1px 1px #0A3641CC;
+    text-align: center;
+}
 
 /* For Them */
 
@@ -74,15 +88,6 @@ body {
     justify-content: center;
     max-width: 100%;
     height: auto;
-}
-
-
-/* Jackets Page*/
-
-.jacket-display {
-    display: flex;
-    gap: 2rem;
-    display: block;
 }
 
 /* TESTING */

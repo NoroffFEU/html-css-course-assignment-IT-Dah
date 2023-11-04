@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    margin: 0%;
+    padding:0%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif, serif;
+    text-shadow: 0px 1px 1px #0A3641CC;
+    color: white;
+    background-image: url(https://i.ibb.co/ySQqw5w/bg-mountain1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* had issues with the transparent background color, so i fixed it like this: */
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0A3641CC; 
+    z-index: -1;
+}
