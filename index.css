@@ -76,4 +76,13 @@ body {
     height: auto;
 }
 
+
+/* Jackets Page*/
+
+.jacket-display {
+    display: flex;
+    gap: 2rem;
+    display: block;
+}
+
 /* TESTING */
