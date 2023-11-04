@@ -5,47 +5,83 @@ Frames      #3C6E6F
 Logo        #0A3641
 */
 
-/* Main */
+/* Main styling */ 
 
 body {
     height: 100%;
     margin: 0%;
     padding:0%;
-    position: relative;
     font-family: 'Open Sans', sans-serif, serif;
     text-shadow: 0px 1px 1px #0A3641CC;
     color: white;
-    background-image: url(https://i.ibb.co/ySQqw5w/bg-mountain1.jpg);
+    background-image: url(https://i.ibb.co/zxXS03D/bg-mountain1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-/* had issues with the transparent background color, so i fixed it like this: */
+/* Links*/
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #0A3641CC; 
-    z-index: -1;
+a {
+    color: #0A3641;
 }
 
-.content-wrapper {
+a:hover {
+    color: #3C6E6FCC;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0A3641;
+}
+
+/* Fonts */
+
+h1 { 
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+h5 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
+
+
+/*.content-wrapper {
     text-shadow: 0px 1px 1px #0A3641CC;
     text-align: center;
-}
+}*/
 
-/* For Them */
+
+/* Index Page*/
 
 .intro {
-    text-shadow: 0px 1px 1px;
+    text-shadow: 0px 1px 1px #0A3641CC;
+    text-align: center;
     padding-top: 1%;
-    padding-bottom: 0.2%;
+    padding-bottom: 0.2%; 
 }
 
 .special-word {
@@ -63,7 +99,7 @@ body::before {
     font-size: 0.8em;
 }
 
-/*  picture display */
+/*  Picture Display */
 
 .pic-gallery {
     max-width: fit-content;
@@ -89,5 +125,3 @@ body::before {
     justify-content: center;
     max-width: 90%;
 }
-
-/* TESTING */

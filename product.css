@@ -1,47 +1,26 @@
-body {
-    height: 100%;
-    margin: 0%;
-    padding:0%;
-    position: relative;
-    font-family: 'Open Sans', sans-serif, serif;
-    text-shadow: 0px 1px 1px #0A3641CC;
-    color: white;
-    background-image: url(https://i.ibb.co/ySQqw5w/bg-mountain1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/* had issues with the transparent background color, so i fixed it like this: */
-
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #0A3641CC; 
-    z-index: -1;
-}
-
-.content-wrapper {
-    text-shadow: 0px 1px 1px #0A3641CC;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1f;
-}
-
-.photo-display img {
-    margin: 0% 0% 5% 0%;
-    float: left;
-    padding-right: 1rem;
-    max-width: 40%;
-}
-.small-photo-display img {
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 1rem;
-    max-width: 10%;
+}
+
+.product-text {
+    text-shadow: 0px 1px 1px #0A3641CC;
+    text-align: right;
+    grid-column: 2/4;
+    padding-top: 25%;
+    max-width: 50%;
+}
+
+.big-photo {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0;
+}
+
+.smaller-photos {
+    padding: 0%;
+    margin: 0%; 
+    max-width: 1px;
 }

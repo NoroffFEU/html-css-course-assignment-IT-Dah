@@ -5,7 +5,7 @@ Frames      #3C6E6F
 Logo        #0A3641
 */
 
-/* Footer */
+/* Footer styling */
 
 footer {
     max-height: 8%;
@@ -20,14 +20,6 @@ footer {
     text-shadow: 0px 1px 1px #0A3641CC;
     padding: 3px;
     text-align: center;
-}
-
-h6 {
-    font-size: 0.7rem;
-}
-
-.footer li a:hover {
-color: #3C6E6F
 }
 
 .footer {

@@ -5,10 +5,10 @@ Frames      #3C6E6F
 Logo        #0A3641
 */
 
-/* Header */
+/* Header styling*/
 
 header {
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.2rem;
     background-color: #F6F6F6cc;
     color: #0A3641;
 }
@@ -18,7 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 0.7rem;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.2rem;
 }
 
 .top-nav {
