@@ -66,6 +66,7 @@ body::before {
 /*  picture display */
 
 .pic-gallery {
+    max-width: fit-content;
     padding: 2rem 3.2rem 7rem;
     display: flex;
     justify-content: center;
@@ -86,8 +87,7 @@ body::before {
 .gallery-container img {
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
 }
 
 /* TESTING */
