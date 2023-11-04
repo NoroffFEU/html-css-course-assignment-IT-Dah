@@ -22,16 +22,15 @@ header {
 }
 
 .top-nav {
-    font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
     padding: 0%;
-    list-style: none;    
+    font-size: 1.2rem;
+    list-style: none;
 }
 
 /* add a responsive search bar
 
 .fa-magnifying-glass{
-
 }
 */

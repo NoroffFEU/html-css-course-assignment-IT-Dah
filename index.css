@@ -11,14 +11,14 @@ body {
     height: 100%;
     margin: 0%;
     padding:0%;
-    font-family: 'Open Sans', sans-serif, serif;
-    text-shadow: 0px 1px 1px #0A3641CC;
-    color: white;
     background-image: url(https://i.ibb.co/zxXS03D/bg-mountain1.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif, serif;
+    color: white;
+    text-shadow: 0px 1px 1px #0A3641CC;
 }
 
 /* Links*/
@@ -38,7 +38,7 @@ a:active {
 
 /* Fonts */
 
-h1 { 
+h1 {
     font-size: 2.5rem;
     font-weight: bold;
     text-shadow: 0px 1px 1px #0A3641CC;
@@ -70,18 +70,14 @@ h5 {
 
 
 /*.content-wrapper {
-    text-shadow: 0px 1px 1px #0A3641CC;
     text-align: center;
-}*/
-
-
-/* Index Page*/
-
+    text-shadow: 0px 1px 1px #0A3641CC;
+}
 .intro {
-    text-shadow: 0px 1px 1px #0A3641CC;
-    text-align: center;
     padding-top: 1%;
-    padding-bottom: 0.2%; 
+    padding-bottom: 0.2%;
+    text-align: center;
+    text-shadow: 0px 1px 1px #0A3641CC;
 }
 
 .special-word {
@@ -90,34 +86,34 @@ h5 {
 
 .for-them {
     display: flex;
-    background-color: #F6F6F6;
-    list-style: none;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding: 0%;
+    background-color: #F6F6F6;
     font-size: 0.8em;
+    list-style: none;
 }
 
 /*  Picture Display */
 
 .pic-gallery {
-    max-width: fit-content;
-    padding: 2rem 3.2rem 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: fit-content;
+    padding: 2rem 3.2rem 7rem;
 }
 
 .gallery-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    white-space: nowrap;
+    align-items: center;
     overflow-x: scroll;
     width: 90%;
-    border-left: 1px solid #0A3641;
     border-right: 1px solid #0A3641;
+    border-left: 1px solid #0A3641;
+    white-space: nowrap;
 }
 
 .gallery-container img {

@@ -1,27 +1,27 @@
 h2 {
-    text-shadow: 0px 1px 1px #0A3641CC;
     text-align: center;
+    text-shadow: 0px 1px 1px #0A3641CC;
 }
 
 #jacket-filter {
     display: flex;
     justify-content: start;
     margin: 0;
+    margin-left: 5%;
     padding: 0;
-    margin-left: 5%;   
 }
 
 .jacket-display {
-    margin: 1% 5% 5% 5%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1% 5% 5% 5%;
 }
 
 .jacket-display img {
     float: left;
-    padding-right: 3rem;
     max-width: 45%;
+    padding-right: 3rem;
 }
 
 .jacket-display div {
@@ -30,5 +30,5 @@ h2 {
 
 .jacket-display div {
     background-color: #F6F6F6;
-    color: #000
+    color: #000;
 }

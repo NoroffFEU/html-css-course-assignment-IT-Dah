@@ -1,10 +1,10 @@
 .about-us {
     margin: 0%;
     padding-top: 5%;
-    padding-left: 15%;
     padding-right: 15%;
-    text-shadow: 0px 1px 1px #0A3641CC;
+    padding-left: 15%;
     text-align: left;
+    text-shadow: 0px 1px 1px #0A3641CC;
 }
 
 .about-us article {
@@ -12,7 +12,7 @@
 }
 
 .start-shopping {
-    text-align: right;
     padding-top: 3%;
     padding-right: 15%;
+    text-align: right;
 }
