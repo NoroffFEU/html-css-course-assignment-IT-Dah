@@ -108,21 +108,40 @@ h5 {
 
 .gallery-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     overflow-x: scroll;
-    width: 90%;
+    width: 85%;
     border-right: 1px solid #0A3641;
     border-left: 1px solid #0A3641;
     white-space: nowrap;
 }
 
 .gallery-container img {
-    display: flex;
-    justify-content: center;
-    max-width: 90%;
+    max-width: 49%;
 }
 
 @media screen and (max-width: 1200px) {
+
+    .pic-gallery {
+        margin: auto;
+    }    
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        overflow-x: hidden;
+        grid-column: 1;
+        max-width: 100%;
+        border-right: none;
+        border-left: none; 
+    }
     
+    .gallery-container img {
+        display: block;
+        max-width: 80%;
+        margin: auto;
+    }
 }
