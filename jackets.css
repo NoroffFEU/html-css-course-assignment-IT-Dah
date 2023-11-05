@@ -1,4 +1,4 @@
-h2 {
+h1 {
     text-align: center;
 }
 
@@ -24,10 +24,40 @@ h2 {
 }
 
 .jacket-display div {
+    background-color: #F6F6F6;
+    color: #000;
     text-align: start;
 }
 
+
+@media screen and (max-width: 1200px) {
+
+#jacket-filter {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+.jacket-display {
+        display: grid;
+        gap: 1rem;
+        grid-template-rows: repeat(10, 0.1fr);
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1rem;
+    }
+    
+.jacket-display img {
+        float: left;
+        max-width: 100%;
+        padding-right: 3rem;
+    }
+    
 .jacket-display div {
-    background-color: #F6F6F6;
-    color: #000;
+        grid-column: 2;
+        padding-bottom: 1rem;
+        background-color: #F6F6F6;
+        color: #000;
+        text-align: center;
+    }
+
 }
