@@ -1,7 +1,7 @@
 main {
     display: grid;
     grid-template-columns: 5% 30% 5% 20% 30%;
-    grid-template-rows: 5% 15% 10% 30% 10% 20%;
+    grid-template-rows: 5% 15% 10% 20% 10% 5% 5% 5% 5%;
 }
 
 .product-text {
@@ -9,6 +9,7 @@ main {
     grid-column: 5;
     text-align: left;
     text-shadow: 0px 1px 1px #0A3641CC;
+    grid-column: 5;
 }
 
 .big-photo {
