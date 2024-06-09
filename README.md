@@ -1,6 +1,6 @@
 HTML & CSS - Webpage needs work
 
-![Skjermbilde-2024-06-09-092030](https://i.ibb.co/rZLL613/Skjermbilde-2024-06-09-092030.png)
+![Skjermbilde-2024-06-09](https://i.ibb.co/rZLL613/Skjermbilde-2024-06-09-092030.png)
 
 We were given the task to design and build a webpage/online store for a company called "Rainydays", using HTML and CSS.
 
